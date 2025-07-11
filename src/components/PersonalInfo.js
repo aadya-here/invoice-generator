@@ -18,14 +18,22 @@ export default function PersonalInfo({ form, handleChange }) {
         <input name="name" value={form.name} onChange={handleChange} />
       </div>
       <div className="input-group">
+        <label>Address</label>
+        <input name="address" value={form.address} onChange={handleChange} />
+      </div>
+      <div className="input-group">
         <label>PAN Number</label>
         <input name="pan" value={form.pan} onChange={handleChange} />
       </div>
       
-      
       <div className="input-group">
         <label>Amount</label>
         <input name="amount" value={form.amount} onChange={handleChange} />
+      </div>
+
+      <div className="input-group">
+        <label>Product</label>
+        <input name="product" value={form.product} onChange={handleChange} />
       </div>
     </div>
   );
