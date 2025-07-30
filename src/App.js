@@ -76,7 +76,7 @@ export default function InvoiceGenerator() {
         Hyphen: {
           name: 'KREATIVE BEAUTY PRIVATE LIMITED',
           address: '4TH FLOOR, B1 401, Kanakia Boomerang,\nChandivali Road,\nYadav Nagar, Mumbai Suburban, Maharashtra, 400072',
-          gst: '27AAFCT6601C1ZN',
+          gst: '27AAJCK9697FIZS',
           pan: 'AAFCT6601C',
         },
       };
